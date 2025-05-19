@@ -1,0 +1,7 @@
+{:paths ["src"]
+ :deps {}
+
+ :aliases
+ {:build {:deps {io.github.clojure/tools.build {:git/tag "v0.10.9" :git/sha "e405aac"}}
+          :ns-default build}
+  :run {:exec-fn shenzhen-sim.core/-main}}}
